@@ -4,27 +4,35 @@ Esse projeto foi desenvolvido como parte do trabalho da disciplina de Gerência 
 
 A aplicação possui uma interface amigável e intuitiva, facilitando a navegação do usuário e possibilitando uma experiência agradável ao acessar as informações do negócio.
 
-# Funcionalidades
+## Funcionalidades
 
-Exibição dos produtos disponíveis para venda;
-Informações de contato da vendedora;
-Localização da vendedora.
-Tecnologias Utilizadas
-Angular 12;
-HTML;
-CSS;
-Bootstrap 5.
-Como executar o projeto
+- Exibição dos produtos disponíveis para venda;
+- Informações de contato da vendedora;
+- Localização da vendedora.
+
+## Tecnologias Utilizadas
+
+- Angular 12;
+- HTML;
+- CSS;
+- Bootstrap 5.
+
+## Como executar o projeto
+
 Para executar o projeto, siga os seguintes passos:
 
-Clone o repositório em sua máquina local;
-Instale as dependências do projeto com o comando npm install;
-Execute o comando ng serve --open para iniciar o servidor de desenvolvimento;
-Acesse a aplicação em seu navegador, no endereço http://localhost:4200.
+1. Clone o repositório em sua máquina local;
+2. Instale as dependências do projeto com o comando `npm install`;
+3. Execute o comando `ng serve --open` para iniciar o servidor de desenvolvimento;
+4. Acesse a aplicação em seu navegador, no endereço `http://localhost:4200`.
 
-# Como contribuir
+## Como contribuir
 
 Contribuições são sempre bem-vindas! Se você tiver alguma ideia para melhorar a aplicação ou encontrar algum bug, fique à vontade para abrir uma issue ou submeter uma pull request.
 
+## Autores
 
-
+- [Deivid Theodoro Lima](https://www.linkedin.com/in/deivid-lima/)
+- [Erica Rosa](https://www.linkedin.com/in/erica-rosa-5793481a9/)
+- [Julio Cesar Gomes](https://www.linkedin.com/in/julio-cesar-gomes-6a437020a/)
+- [Samuel Guimarães](https://www.linkedin.com/in/samuel-guimar%C3%A3es-0630a9216/)
