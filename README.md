@@ -12,7 +12,7 @@ A aplicação possui uma interface amigável e intuitiva, facilitando a navegaç
 
 ## Tecnologias Utilizadas
 
-- Angular 12;
+- Angular 15;
 - HTML;
 - CSS;
 - Bootstrap 5.

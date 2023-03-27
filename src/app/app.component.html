@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<nav><app-navBar></app-navBar></nav>
+<nav>
+  <app-navBar></app-navBar>
+</nav>
 <header>
-
+  <app-carousel [images]="images" [autoSlide]="true" [indicators]="false"></app-carousel>
 </header>
 
 <body>
