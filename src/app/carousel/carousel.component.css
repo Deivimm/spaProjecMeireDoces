@@ -4,12 +4,12 @@
     text-align: center;
     width: 700px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px #dce1e1;
+    box-shadow: 0 8px 5px #dce1e1;
 }
 
 .carousel-container img {
     display: none;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .carousel-container img.image-active {
@@ -44,6 +44,7 @@
 .dot:hover {
     opacity: 1;
 }
+
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -59,7 +60,7 @@
     }
 }
 
-.btn-carousel{
+.btn-carousel {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -69,35 +70,35 @@
     width: 15%;
     padding: 0;
     color: #fff;
-    text-align: center; 
-    background: 0 0;                
+    text-align: center;
+    background: 0 0;
     border: 0;
     cursor: pointer;
 }
 
-.btn-prev{
+.btn-prev {
     left: 0;
 }
 
-.btn-next{
+.btn-next {
     right: 0;
 }
 
-.icon-carousel{
+.icon-carousel {
     color: #fff;
     opacity: 0.5;
     transition: all 0.15s ease;
 }
 
-.icon-carousel:hover{
+.icon-carousel:hover {
     opacity: 0.9;
 }
 
-.icon-carousel:active{
+.icon-carousel:active {
     opacity: 0.5;
 }
 
 .icon-next,
-.icon-prev{
+.icon-prev {
     font-size: 35px;
 }

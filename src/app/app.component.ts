@@ -15,27 +15,27 @@ export class AppComponent {
     },
     {
       imageSrc:
-      'assets/carouselImages/img2.jpg',
+        'assets/carouselImages/img2.jpg',
       imageAlt: 'nature2',
     },
     {
       imageSrc:
-      'assets/carouselImages/img3.jpg',
+        'assets/carouselImages/img3.jpg',
       imageAlt: 'person1',
     },
     {
       imageSrc:
-      'assets/carouselImages/img4.jpg',
+        'assets/carouselImages/img4.jpg',
       imageAlt: 'person2',
     },
     {
       imageSrc:
-      'assets/carouselImages/img5.jpg',
+        'assets/carouselImages/img5.jpg',
       imageAlt: 'person2',
     },
     {
       imageSrc:
-      'assets/carouselImages/img6.jpg',
+        'assets/carouselImages/img6.jpg',
       imageAlt: 'person2',
     },
   ]
