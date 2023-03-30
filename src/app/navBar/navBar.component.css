@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
-
-
-/* 
-.logo {
-  color: #faabc9;
-  font-size: 50px;
-  font-weight: 300;
-  font-family: 'Rouge Script', sans-serif;
-  align-content: center;
-} */
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 80px;
-  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -22,6 +11,9 @@
   float: left;
   width: 150px;
   margin-right: 50px;
+  position: fixed;
+  top: 10px;
+  left: 160px;
 }
 
 
@@ -34,13 +26,18 @@
 
 nav {
   display: flex;
-  height: 80px;
+  height: 120px;
   width: 100%;
-  background: #fafafa;
+  background: linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,900));
   align-items: center;
   justify-content: center;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 nav ul {
@@ -48,6 +45,8 @@ nav ul {
   flex-wrap: wrap;
   list-style: none;
   margin-left: auto;
+  transform: translate(-66%, 0%);
+  
 }
 
 nav ul li {
@@ -55,21 +54,21 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #292629;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 15px;
   border-radius: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   transition: all 0.3s ease;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
   color: #faabc9;
-  background: #ebe6eb;
+  background: #ebe6e9;
 }
 
 nav .menu-btn i {
@@ -147,7 +146,7 @@ input[type="checkbox"] {
   z-index: -1;
   width: 100%;
   padding: 0 30px;
-  color: #1b1b1b;
+  color: #000000;
 }
 
 .content div {

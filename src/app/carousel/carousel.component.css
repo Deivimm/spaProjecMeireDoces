@@ -1,15 +1,17 @@
 .carousel-container {
     position: relative;
     margin: auto;
+    margin-top: 5%;
     text-align: center;
     width: 700px;
     border-radius: 15px;
     box-shadow: 0 8px 5px #dce1e1;
+    margin-bottom: 2rem;
 }
 
 .carousel-container img {
     display: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .carousel-container img.image-active {
