@@ -8,15 +8,21 @@ import { NavBarComponent } from './navBar/navBar.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { SobreNosComponent } from './sobreNos/sobreNos.component';
+import { CasamentosComponent } from './casamentos/casamentos.component';
+import { AniversariosComponent } from './aniversarios/aniversarios.component';
+import { DocesComponent } from './doces/doces.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [					
     AppComponent,
     HomeComponent,
     NavBarComponent,
     CarouselComponent,
     FooterComponent,
-      SobreNosComponent
+      SobreNosComponent,
+      CasamentosComponent,
+      AniversariosComponent,
+      DocesComponent
    ],
   imports: [
     BrowserModule,

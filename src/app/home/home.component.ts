@@ -15,6 +15,11 @@ export class HomeComponent implements OnInit {
   images = [
     {
       imageSrc:
+        'assets/images/carousel/casamento1.jpeg',
+      imageAlt: 'nature1',
+    },
+    {
+      imageSrc:
         'assets/images/carousel/img1.jpg',
       imageAlt: 'nature1',
     },

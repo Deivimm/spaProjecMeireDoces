@@ -3,21 +3,19 @@
     margin: auto;
     margin-top: 5%;
     text-align: center;
-    width: 700px;
-    border-radius: 15px;
-    box-shadow: 0 8px 5px #dce1e1;
+    width: 51.24450951683748vw;
+    box-shadow: 0 0.5856515373352855vw 0.36603221083455345vw #dce1e1;
     margin-bottom: 2rem;
 }
 
 .carousel-container img {
     display: none;
-    border-radius: 15px;
 }
 
 .carousel-container img.image-active {
     display: block;
     width: 100%;
-    height: 900px;
+    height: 65.88579795021963vw;
 }
 
 .carousel-dot-container {
@@ -32,9 +30,9 @@
 
 .dot {
     cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
+    height: 0.9516837481698389vw;
+    width: 0.9516837481698389vw;
+    margin: 0 0.36603221083455345vw;
     background-color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -102,5 +100,5 @@
 
 .icon-next,
 .icon-prev {
-    font-size: 35px;
+    font-size: 2.562225475841874vw;
 }

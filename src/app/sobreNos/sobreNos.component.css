@@ -6,23 +6,24 @@
 }
 
 .imagem {
-    flex: 0.7;
+    flex: 0.8;
 }
 
 .imagem img {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .texto {
     flex: 1;
-    margin-right: 25px;
-    font-family: 'Cookie', cursive;
-    font-size: 35px;
-    margin-bottom: 4rem;
+    margin-right: 1.8301610541727673vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4641288433382138vw;
+    margin-bottom: 5rem;
 }
 
 .texto h1 {
-    font-size: 100px;
+    font-family: 'Cookie', cursive;
+    font-size: 7.320644216691069vw;
     font-weight: bold;
     text-align: center;
 }
@@ -33,5 +34,5 @@
 
 .texto hr {
     width: 100%;
-    border: 1px solid #faabc9;
+    border: 0.07320644216691069vw solid #faabc9;
 }

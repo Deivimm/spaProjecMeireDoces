@@ -1,3 +1,8 @@
+
+body{
+  margin-top: 3rem;
+}
+
 .divider {
   position: relative;
   margin-top: 3rem;
@@ -16,14 +21,19 @@
 
 .imagem {
   position: relative;
-  margin-top: 2rem;
-  text-align: center;
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 .imagem img {
+  display: block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
   opacity: 0.4;
-  margin-bottom: 3rem;
 }
 
 .imagem .texto {
@@ -31,19 +41,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  text-align: center;
-}
-
-.imagem .texto h2 {
-  font-size: 36px;
+  width: 95%;
   color: #000000;
-}
-
-.imagem .texto p {
-  font-size: 35px;
-  color: #000000;
-  font-family: 'Cookie', cursive;
+  font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 1.5vw;
 }
+
 

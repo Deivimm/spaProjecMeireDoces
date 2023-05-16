@@ -56,4 +56,5 @@ export class CarouselComponent implements OnInit {
       this.selectedIndex++;
     }
   }
+  
 }
