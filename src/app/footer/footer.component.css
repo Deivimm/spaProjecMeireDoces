@@ -33,6 +33,11 @@ ul {
 	padding: 0 1.0980966325036603vw;
 }
 
+.footer-col a img{
+	margin-top: 5%;
+	width: 200px;
+}
+
 .footer-col li {
 	color: #bbbbbb;
 }
