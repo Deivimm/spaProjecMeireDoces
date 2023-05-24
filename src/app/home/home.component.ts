@@ -35,6 +35,11 @@ export class HomeComponent implements OnInit {
     },
     {
       imageSrc:
+        'assets/images/carousel/casamento4.jpeg',
+      imageAlt: 'person1',
+    },
+    {
+      imageSrc:
         'assets/images/carousel/img4.jpg',
       imageAlt: 'person2',
     },
